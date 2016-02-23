@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>首页 — 孩子的第一所社会大学</title>
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <link rel="stylesheet" type="text/css" href="css/scroll.css" />
+</head>
+<body>
+    <div class="cover" style="background-image: url('http://s.sogokids.com/2016-02-18/f7565fa616269058a45ba834cb611fc5.jpg');">
+        <div class="header"></div>
+        <div class="index-download"><img src="img/code_index.png"></div>
+    </div>
+    <div class="intro">
+        <div class="title"><img src="img/sogokids.png" /></div>
+        <div class="desc">松果亲子是国内第一家互联网亲子教育品牌，运用英国早期儿童教育大纲（Early Years Foundation Stage，简称EYFS），结合独具特色的“社会大学”模式，为3-7岁的孩子提供实境的、体验式的寓教于乐的亲子课堂，让孩子和父母，一起在玩中认识世界，快乐成长。</div>
+    </div>
+    <div class="album">
+        <div class="title"><img src="img/photos.png" /></div>
+        <div id="ca-container" class="ca-container">
+            <div class="ca-wrapper">
+                <div class="ca-item ca-item-1">
+                    <img src="http://s.sogokids.com/2016-02-18/70896a6996c65de6facdda9f3e49e566.jpg" />
+                </div>
+                <div class="ca-item ca-item-2">
+                    <img src="http://s.sogokids.com/2016-02-18/764632dd055763b3004789a88c0761cd.jpg" />
+                </div>
+                <div class="ca-item ca-item-3">
+                    <img src="http://s.sogokids.com/2016-02-18/be8ecfc1bdfcf341f6fca4021049130e.jpg" />
+                </div>
+                <div class="ca-item ca-item-4">
+                    <img src="http://s.sogokids.com/2016-02-18/8d0ae43bfe189566975bc8b525b4b58d.jpg" />
+                </div>
+                <div class="ca-item ca-item-5">
+                    <img src="http://s.sogokids.com/2016-02-18/d75d8537badfaeb75a3f34ea7da03f87.jpg" />
+                </div>
+                <div class="ca-item ca-item-6">
+                    <img src="http://s.sogokids.com/2016-02-18/c2cda49ba92ae2ae40eec16febd1df06.jpg" />
+                </div>
+                <div style="clear: both;"></div>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.easing.1.3.js"></script>
+    <script type="text/javascript" src="js/jquery.contentcarousel.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $("#index").addClass("active");
+            $('#ca-container').contentcarousel();
+            $('.ca-item img').on("click", function () {
+                window.location.href = "http://m.sogokids.com";
+            });
+        })
+    </script>
+</body>
+</html>

@@ -5,7 +5,7 @@ $(function () {
     header_html += "<div class='navbar'>";
     header_html += "<div class='icon'></div>";
     header_html += "<a href='index.html'><div id='index' class='nav'>首<span style='margin-left: 20px'>页</span></div></a>";
-    header_html += "<a href='subject.html'><div id='subject' class='nav'>课程体系</div></a>";
+    header_html += "<a href='subject.html'><div id='subject' class='nav'>产品服务</div></a>";
     header_html += "<a href='jobs.html'><div id='jobs' class='nav'>招聘信息</div></a>";
     header_html += "<a href='aboutus.html'><div id='aboutus' class='nav'>关于我们</div></a>";
     header_html += "<div style='clear: both;'></div>";
